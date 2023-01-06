@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Spot_electricity_analyzer", "Spot_electricity_analyzer.pyproj", "{56AC964E-A31F-4087-8AF0-54195EB896FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56AC964E-A31F-4087-8AF0-54195EB896FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AC964E-A31F-4087-8AF0-54195EB896FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A00B651-5C06-4E3E-9467-92FDBD7E1B25}
+	EndGlobalSection
+EndGlobal
