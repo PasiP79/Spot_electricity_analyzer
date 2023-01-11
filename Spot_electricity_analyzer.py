@@ -130,7 +130,7 @@ def array_plots(prices, spot_array_price, spot_07_23, spot_00_06):
 # Note data in xls format, you need to save it to xlsx format for below function to work.
 
 print('Working directory:', os.getcwd())
-wb = openpyxl.load.workbook('elspot-prices_2022_hourly_eur.xlsx') # load_workbook function returns a valye of workbook data type
+wb = openpyxl.load_workbook('elspot-prices_2022_hourly_eur.xlsx') # load_workbook function returns a valye of workbook data type
 sheet = wb['in'] # Get a sheet called Ark1 from the workbook
 
 array_manipulation(sheet) # Function call, collect relevant data
