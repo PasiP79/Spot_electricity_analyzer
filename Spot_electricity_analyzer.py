@@ -2,11 +2,11 @@
 
 #import modules
 from pickle import TRUE
-from tracemalloc import statistics
+import statistics
 import openpyxl
 import os
 import matplotlib.pyplot as plt # Use functions in pyplot to make matplotlip work like Matlab
-import numby as np
+#import numby as np
 import pandas as pd
 import statistics
 import requests
@@ -130,8 +130,8 @@ def array_plots(prices, spot_array_price, spot_07_23, spot_00_06):
 # Note data in xls format, you need to save it to xlsx format for below function to work.
 
 print('Working directory:', os.getcwd())
-wb = openpyxl.load.workbook('nordpool_annual_day_spot.xlsx') # load_workbook function returns a valye of workbook data type
-sheet = wb['Ark1'] # Get a sheet called Ark1 from the workbook
+wb = openpyxl.load.workbook('elspot-prices_2022_hourly_eur.xlsx') # load_workbook function returns a valye of workbook data type
+sheet = wb['in'] # Get a sheet called Ark1 from the workbook
 
 array_manipulation(sheet) # Function call, collect relevant data
 array_plots() # Function call, plotting
